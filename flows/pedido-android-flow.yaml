@@ -1,0 +1,29 @@
+appId: com.qazandoqafood
+---
+- runFlow: login-android.yaml    
+- tapOn: "Selecione seu endereço..."
+- assertVisible:
+    id: "android:id/message"
+- tapOn:
+    id: "android:id/button1"    
+- assertVisible: "Av. Governador A. Konder, 20"    
+#- scroll
+- scrollUntilVisible:   
+    element:
+      text: "Shushi Home"
+    direction: DOWN
+- tapOn:
+    text: "Shushi Home"
+- tapOn:
+    point: 95%,72%
+- tapOn:
+    id: "open-cart-button"    
+- tapOn:
+    id: "confirm-order-button"      
+- scrollUntilVisible:   
+    element:
+      text: "Dinheiro"    
+- tapOn: "Dinheiro"     
+- tapOn:
+    id: "do-order-button"
+- assertVisible: "Pedido realizado"         
