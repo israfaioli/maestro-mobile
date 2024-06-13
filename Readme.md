@@ -16,3 +16,7 @@ Although the samples are checked in, updating them requires a few manual steps:
 * Upload samples.zip
 * Adjust the permissions of samples.zip to "Public to Internet"
 * Run `maestro download-samples` and verify that the change was successful
+
+# Monitoring your CICD executions
+
+* URL `https://console.mobile.dev/`
