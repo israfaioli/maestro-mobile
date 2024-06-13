@@ -16,7 +16,7 @@ appId: com.qazandoqafood
     text: "Shushi Home"
 - assertVisible: "SASHIMI SALMÃO (6 UN.)"    
 - tapOn:
-    point: 95%,72%
+    point: 94%,43%
 - tapOn:
     id: "open-cart-button"    
 - tapOn:
