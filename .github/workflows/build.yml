@@ -22,7 +22,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 14
+          node-version: 20
 
       - uses: mobile-dev-inc/action-maestro-cloud@v1.1.0
         with:
